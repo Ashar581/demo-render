@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class DemoController {
 
-    @RequestMapping("/")
+    @RequestMapping("/hi")
     public String checkJsp(){
         return "ashar";
     }
