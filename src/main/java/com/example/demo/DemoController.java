@@ -10,9 +10,9 @@ public class DemoController {
     public String startDemo(){
         return "index";
     }
-    @RequestMapping("/heart")
+    @RequestMapping("/album")
     public String marry(){
-        return "heart";
+        return "album";
     }
 }
 
