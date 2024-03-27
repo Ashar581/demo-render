@@ -14,5 +14,24 @@ public class DemoController {
     public String marry(){
         return "album";
     }
+    @RequestMapping("/letter")
+    public String letter(){
+        return "letter";
+    }
+
+    @RequestMapping("/nanao")
+    public String nanao(){
+        return "nanao";
+    }
+
+    @RequestMapping("/us")
+    public String us(){
+        return "us";
+    }
+
+    @RequestMapping("/you")
+    public String you(){
+        return "you";
+    }
 }
 
