@@ -13,6 +13,7 @@
                 <li><a href="/us">US</a></li>
                 <li><a href="/letter">Letter</a></li>
                 <li><a href="/nanao">Nanao</a></li>
+                <li><a href="/album">Album</a></li>
             </ul>
         </div>
     

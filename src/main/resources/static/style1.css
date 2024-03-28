@@ -1,6 +1,6 @@
             ul {
                 list-style-type: none;
-                margin-left: 160px;
+                margin: 0;
                 padding: 0;
                 overflow: hidden;
             }
@@ -13,26 +13,33 @@
                 margin-right: 10px;
                 border-color: red;
                 border-radius: 5px;
-                font-size: 40px; 
+                font-size: 40px;
                 display: block;
                 padding: 2px;
                 background-color: grey;
                 text-decoration: none;
-                font: 100 2.2rem 'Quicksand',sans-serif;
+                font: 100 1rem 'Quicksand',sans-serif;
                 color: white;
             }
             li a:hover {
                 border: 5px solid #777;
             }
-            body{
+
+            .nav{
+                display: flex;
+                justify-content: center;
+            }
+
+body{
     background-color:transparent;
     padding: 300px;
     height: 100%;
-    background-image: url("https://i.ibb.co/WxKRc6F/IMG-4037.jpg");
+    background-image: url("https://i.ibb.co/5FnV0JN/IMG-2951.jpg");
     filter: blue(10px);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    background-color: black;
 }
 
 .container
@@ -42,14 +49,14 @@
     margin: auto;
     width: 100%;
     padding: 10px;
-    
+
     font: 900 1rem 'Quicksand',sans-serif;
     color: #6666ff;
-    
+
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://i.ibb.co/WxKRc6F/IMG-4037.jpg");
+    background-image: url("https://i.ibb.co/5FnV0JN/IMG-2951.jpg");
     background-size: cover;
     background-position: initial;
     width: 300px;

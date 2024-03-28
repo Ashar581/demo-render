@@ -22,7 +22,7 @@
                 margin-right: 10px;
                 border-color: red;
                 border-radius: 10px;
-                font-size: 40px; 
+                font-size: 40px;
                 display: block;
                 padding: 20px;
                 background-color: grey;
@@ -38,7 +38,7 @@
                 padding: 5px;
                 margin-top: 10px;
                 margin-bottom: 20px;
-            }            
+            }
             body{
                 background-color: #817587;
             }
@@ -63,19 +63,24 @@
                 padding: 15px;
                 text-align: center;
             }
+            .nav{
+                display: flex;
+                ustify-content: center;
+            }
         </style>
         </head>
     <body>
-        
+
         <div class='nav'>
             <ul>
                 <li><a href="/you">You</a></li>
                 <li><a href="/us">US</a></li>
                 <li><a href="/letter">Letter</a></li>
                 <li><a href="/nanao">Nanao</a></li>
+                <li><a href="/album">Album</a></li>
             </ul>
         </div>
-    
+
         <div class="gallery">
             <a target="_blank" href="https://i.ibb.co/TqcHMWy/IMG-7972.jpg">
                 <img src="https://i.ibb.co/TqcHMWy/IMG-7972.jpg" alt="Cinque Terre" width="600" height="400">
@@ -89,7 +94,7 @@
             </a>
             <div class="desc">Look For The Eye!</div>
         </div>
-    
+
         <div class="gallery">
             <a target="_blank" href="https://i.ibb.co/ZmmRSdb/IMG-2707.jpg">
                 <img src="https://i.ibb.co/ZmmRSdb/IMG-2707.jpg" alt="Mountains" width="600" height="400">
@@ -101,32 +106,32 @@
                 <img src="https://i.ibb.co/RpnYG9p/IMG-3274.jpg" alt="Mountains" width="600" height="400">
             </a>
             <div class="desc">Highway? My Way!</div>
-        </div> 
+        </div>
         <div class="gallery">
             <a target="_blank" href="https://i.ibb.co/2kd4qTj/IMG-4933.jpg">
                 <img src="https://i.ibb.co/2kd4qTj/IMG-4933.jpg" alt="Mountains" width="600" height="400">
             </a>
             <div class="desc">Neha who?</div>
-        </div> 
+        </div>
         <div class="gallery">
             <a target="_blank" href="https://i.ibb.co/k5qjVMJ/IMG-8018.jpg">
             <img src="https://i.ibb.co/k5qjVMJ/IMG-8018.jpg" alt="Mountains" width="600" height="400">
             </a>
             <div class="desc">Mirror Couldn't Frame!</div>
-        </div>     
+        </div>
         <div class="gallery">
             <a target="_blank" href="https://i.ibb.co/5FnV0JN/IMG-2951.jpg">
                 <img src="https://i.ibb.co/5FnV0JN/IMG-2951.jpg" alt="Mountains" width="600" height="400">
             </a>
             <div class="desc">The way we see!</div>
         </div>
- 
+
         <div class="gallery">
             <a target="_blank" href="https://i.ibb.co/WxKRc6F/IMG-4037.jpg">
                 <img src="https://i.ibb.co/WxKRc6F/IMG-4037.jpg" alt="Mountains" width="600" height="400">
             </a>
             <div class="desc">Always Romantic!</div>
-        </div>    
+        </div>
         <div class="gallery">
             <a target="_blank" href="https://i.ibb.co/JHYyyRf/IMG-8236.jpg">
                 <img src="https://i.ibb.co/JHYyyRf/IMG-8236.jpg" alt="Mountains" width="600" height="400">
