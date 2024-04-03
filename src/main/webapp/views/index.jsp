@@ -112,8 +112,8 @@ li a{
     <ul>
       <li><a href='/album'>Album</a></li>
       <li><a href='/letter'>Letter</a></li>
-      <li><a href='/Status'>Status</a></li>
-      <li><a href='/Special'>Special</a></li>
+      <li><a href='/status'>Status</a></li>
+      <li><a href='/special'>Special</a></li>
     </ul>
   </div>
 
