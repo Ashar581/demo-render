@@ -33,5 +33,15 @@ public class DemoController {
     public String you(){
         return "you";
     }
+
+    @RequestMapping("/status")
+    public String status(){
+        return "status";
+    }
+
+    @RequestMapping("/special")
+    public String special(){
+        return "special";
+    }
 }
 

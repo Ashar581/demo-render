@@ -1,27 +1,142 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Hi Love!</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <mark>Hello Nanao!</mark>
-                <br>
-                <br>
-                <mark>I've heard you recently became off form!</mark><br>
-                <mark>Are you depressed? Feel like need some boost?</mark><br>
-                <br>
-                <mark>Congratulations!<br>I have got the perfect thing for you!</mark><br><br>
-                <mark>To avail this opportunity, press the button below!</mark>
-        </div>
-        <form action="/album" method="POST" class="form" id="login">
-            <center><button type="submit" class="form-button">Nanao Button</button></center>
-        </form>
-    </body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Nanao</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href='/album'>Album</a></li>
+      <li><a href='/letter'>Letter</a></li>
+      <li><a href='/Status'>Status</a></li>
+      <li><a href='/Special'>Special</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>The Love</h1>
+    <p><i>"If you don'd fight for your love, What kind of love do you have?"</i></p>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Love is what ever you want it to be</p>
+      <h2>Where?</h2>
+      <p>Love is in the air tonight!</p>
+      <h2>How?</h2>
+      <p>It is for you to decide!</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>You can always count on me when it matters the least/most. Be all right soon!</p>
+</div>
+
+</body>
 </html>
