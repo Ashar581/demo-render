@@ -76,7 +76,7 @@ body {
 </div>
     
 <div class="button">
-    <form action="/index" method="POST" class="form" id="login">
+    <form action="/" method="POST" class="form" id="login">
         <center><button type="submit" class="form-button">Back</button></center>
     </form>
 </div>  
