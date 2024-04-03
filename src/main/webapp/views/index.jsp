@@ -114,6 +114,7 @@ li a{
       <li><a href='/letter'>Letter</a></li>
       <li><a href='/status'>Status</a></li>
       <li><a href='/special'>Special</a></li>
+      <li><a href='/helpline'>Helpline</a></li>
     </ul>
   </div>
 
