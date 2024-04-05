@@ -69,7 +69,9 @@ body {
         <input type="radio" id="css" name="fav_language" value="better">
         <label for="better">Feel Better</label><br>
         <input type="radio" id="javascript" name="fav_language" value="video">
-        <label for="video">Video</label><br><br>
+        <label for="video">Video</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="movie">
+        <label for="movie">Movie</label><br>
         <center><input type="submit" value="Submit"></center>
     </form>
 
