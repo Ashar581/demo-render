@@ -38,10 +38,12 @@ body {
 <body>
 
 <h1 class="glow">Movie With Ashhh!</h1>
-<center><video controls>
-            <source src="https://ia601503.us.archive.org/17/items/eternal.-sunshine.of.the.-spotless.-mind.-2004.m-hd.x-264/Eternal.Sunshine.of.the.Spotless.Mind.2004.m-HD.x264.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video></center>
+                <center>
+                    <iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/dmcxgDhC#Yl61OfrClfX3D8AQaBgizTOnWxbk3viuNJacRsn80F8" allowfullscreen >
+
+                    </iframe>
+
+                </center>
 
 
 <div class="button">
