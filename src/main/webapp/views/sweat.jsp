@@ -16,7 +16,7 @@ body {
     
     background-color: lightblue;
     width: 150px;
-    height: 100px;
+    height: 150px;
     overflow: scroll;
     
     font: 900 1rem 'Quicksand',sans-serif;
@@ -72,6 +72,9 @@ body {
         <label for="video">Video</label><br>
         <input type="radio" id="javascript" name="fav_language" value="movie">
         <label for="movie">Movie</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="book">
+        <label for="book">Book</label><br><br>
+
         <center><input type="submit" value="Submit"></center>
     </form>
 
