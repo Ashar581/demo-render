@@ -120,7 +120,7 @@ li a{
 
   <div class="col-6 col-s-9">
     <h1>The Love</h1>
-    <p><i>"If you don'd fight for your love, What kind of love do you have?"</i></p>
+    <p><i>"If you don't fight for your love, What kind of love do you have?"</i></p>
   </div>
 
   <div class="col-3 col-s-12">

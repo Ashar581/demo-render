@@ -62,27 +62,19 @@ body {
 <h1 class="glow">Love Letter</h1>
 
 <div class="container">
-        Well, its not that it is the first time we are fighting. Neither its the first time we say
-        "Today was extreme". The fun fact is the more we stay together the more "extreme" levels comes up
-        as an addition.
-
+        Hello Love! It has been days since we last had a fight! Way to go little Nanao! You are doing great!
+        Lately I have noticed you are trying real hard on making sure that you stay as cute and as real as possible.
+        I do appreciate your efforts for this! Duh! That's amazing!
     <br><br>
-        Now yes, it is true that things are bad yet again but arent you already understanding the pattern?
-        These things are bound to happen! These are a part of this whole process of togetherness. Some gives up
-         and some just don't. Don't you think we are added to the "just don't" list?
+        A wonderful sight is to be seen! You and I enjoying life...ahahahah! Isn't that fun? keep going bubs!
     <br><br>
-        Just to make it clear, I am not trying to make you feel special or win over you, all my efforts are for you to be stable
-        enough to get hold of your sense of reasoning. You have had a major spell of anger frustration, now its
-         time for cool heads. Even when you were going back, you still had that flair of fighting with me. Even asked
-         me not to do anything and yet I am doing it, even after knowing someday you'll be disrespecting those efforts
-         in anger (understand the point). After knowing every thing, I am still persistent on completing this new update since I know
-         you are waiting for it. Even though you said, don't do anything.
+        I don't expect you to make things right overnight. Take your time like always. Its okay. It'll be better
+        soon. Just try not to screw things up.
     <br><br>
-        This new update which I was working on for a while now is completed. Don't expect you to appreciate it,
-        not today at least. Just smile instead and once you are done reading, let me know so that I can switch
-        the server off.
+        Please try not to think about how I am feeling. Focus on yourself for the time being. I'll try not to show
+        if I am not okay, at least for now. Don't ask questions about it!
     <br><br>
-        Sorry baby. I'll change things from now on. I promise. Take care.
+        Stay tuned for more updates and surprises to come!
     <br><br>
         I Love You 581!
 

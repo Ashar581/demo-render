@@ -61,8 +61,11 @@ body {
 
 <h1 class="glow">Cheer Up!</h1>
 <div class="container">
-    Yes, the past can hurt. You can either run from it or learn from it.<br><br>
-    What do you think you should choose?
+    Well it looks like you are all high and might! Flying with high colours! Aren't you little one? Looks good to me!
+    Keep doing wonders! Your studies are going well! Do not stop any further! Keep moving ahead just like we move
+    on from the past!
+    <br><br>
+    You have it in you! Unlock the potential forget the fear!
 </div>
 
 <div class="button">

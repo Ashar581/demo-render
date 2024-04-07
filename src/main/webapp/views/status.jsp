@@ -50,10 +50,10 @@ body{
     margin-bottom: 20px;
 }
 
-.html {width: 99%; background-color: #04AA6D;}
-.css {width: 83%; background-color: #2196F3;}
+.html {width: 99.5%; background-color: #04AA6D;}
+.css {width: 27%; background-color: #2196F3;}
 .js {width: 100%; background-color: #f44336;}
-.php {width: 19%; background-color: #808080;}
+.php {width: 36%; background-color: #808080;}
 </style>
 </head>
 <body>
@@ -62,12 +62,12 @@ body{
 
 <p>Love</p>
 <div class="container">
-  <div class="skills html">99%</div>
+  <div class="skills html">99.5%</div>
 </div>
 
 <p>Anger</p>
 <div class="container">
-  <div class="skills css">83%</div>
+  <div class="skills css">27%</div>
 </div>
 
 <p>Happiness After This</p>
@@ -77,7 +77,7 @@ body{
 
 <p>Studies</p>
 <div class="container">
-  <div class="skills php">19%</div>
+  <div class="skills php">36%</div>
 </div>
 
 <div class="button">
