@@ -64,6 +64,8 @@ body {
 <div class="container">
     
     <form action="/choose" method="POST" class="form" id="login">
+        <input type="radio" id="html" name="fav_language" value="image">
+        <label for="image">My Space</label><br>
         <input type="radio" id="html" name="fav_language" value="confidence">
         <label for="confidence">Confidence</label><br>
         <input type="radio" id="css" name="fav_language" value="better">
