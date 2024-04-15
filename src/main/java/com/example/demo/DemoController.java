@@ -84,11 +84,14 @@ public class DemoController {
 
         byte [] buffer = new byte[1080000];
         int bytesRead;
-        while((bytesRead = inputStream.read(buffer))!=-1){
+        while((bytesRead = inputStream.read(buffer) )!= -1){
             outputStream.write(buffer,0,bytesRead);
         }
 
-        repo.save(new Image(outputStream.toByteArray(),image.getContentType()));
+        byte [] store = outputStream.toByteArray();
+        String type = image.getContentType();
+
+        repo.save(new Image(store,type));
 
 //        byte [] store = image.getBytes();
 //        String type = image.getContentType();
