@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.ByteArrayOutputStream;
 import java.util.List;
 
 @Controller
@@ -75,10 +78,22 @@ public class DemoController {
 
     @RequestMapping("/saveImage")
     public String save(@RequestParam("file") MultipartFile image) throws IOException {
-        byte [] store = image.getBytes();
-        String type = image.getContentType();
 
-        repo.save(new Image(store,type));
+        InputStream inputStream = image.getInputStream();
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+
+        byte [] buffer = new byte[1080000];
+        int bytesRead;
+        while((bytesRead = inputStream.read(buffer))!=-1){
+            outputStream.write(buffer,0,bytesRead);
+        }
+
+        repo.save(new Image(outputStream.toByteArray(),image.getContentType()));
+
+//        byte [] store = image.getBytes();
+//        String type = image.getContentType();
+//
+//        repo.save(new Image(store,type));
         return "image";
     }
 
