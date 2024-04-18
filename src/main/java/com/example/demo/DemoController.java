@@ -93,10 +93,7 @@ public class DemoController {
 
         repo.save(new Image(store,type));
 
-//        byte [] store = image.getBytes();
-//        String type = image.getContentType();
-//
-//        repo.save(new Image(store,type));
+
         return "image";
     }
 
@@ -115,6 +112,11 @@ public class DemoController {
         }
         model.addAttribute("data", arrayToJSarray(saveList));
         return "show";
+    }
+
+    @RequestMapping("/anniversary")
+    String anniversary(){
+        return "anniversary";
     }
 
     private String arrayToJSarray(String[] saveList) {

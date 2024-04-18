@@ -62,19 +62,18 @@ body {
 <h1 class="glow">Love Letter</h1>
 
 <div class="container">
-        Hello Love! It has been days since we last had a fight! Way to go little Nanao! You are doing great!
-        Lately I have noticed you are trying real hard on making sure that you stay as cute and as real as possible.
-        I do appreciate your efforts for this! Duh! That's amazing!
+        Hello Miss Softie! Hasnt it been a while?! Damn! 2 years? For Real! A milestone achieved and there
+         are more to come!
     <br><br>
-        A wonderful sight is to be seen! You and I enjoying life...ahahahah! Isn't that fun? keep going bubs!
+        It has been a real difficult journey XD..hahahahah. We started off holding hands now we are running
+        at pace to find the next stop:- a career together! Planned a lot of things together and the
+        best part is to see them come true one by one!
     <br><br>
-        I don't expect you to make things right overnight. Take your time like always. Its okay. It'll be better
-        soon. Just try not to screw things up.
+        Today is the day we celebrate our second anniversary! Yes! Thats ture! Remember the day and cherish the moment!
+         Live a life without regrets and laugh together as if there is no tomorrow! Today is for US! And we
+         are bound to have lunch together! A date it is! and soon it ll be a date night!
     <br><br>
-        Please try not to think about how I am feeling. Focus on yourself for the time being. I'll try not to show
-        if I am not okay, at least for now. Don't ask questions about it!
-    <br><br>
-        Stay tuned for more updates and surprises to come!
+        Happy 2nd Anniversary My Only Love.
     <br><br>
         I Love You 581!
 
@@ -83,6 +82,12 @@ body {
 <div class="button">
     <form action="/" method="POST" class="form" id="login">
         <center><button type="submit" class="form-button">Back</button></center>
+    </form>
+</div>
+<br><br>
+<div class="button">
+    <form action="/anniversary" method="POST" class="form" id="login">
+        <center><button type="submit" class="form-button">Happy Anniversary!</button></center>
     </form>
 </div>
 
