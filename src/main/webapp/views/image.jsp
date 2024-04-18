@@ -61,7 +61,7 @@
                 <button class="button" type="submit" value="submit">Show All</button>
             </form>
             <br><br>
-            <form action="/" method="POST">
+            <form action="/helpline" method="POST">
                 <button class="button" type="submit" value="submit">Back</button>
             </form>
         </div>

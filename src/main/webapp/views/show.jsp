@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <style>
         body{
-            background-colour: black;
         }
         #imageContainer {
             display: flex;
