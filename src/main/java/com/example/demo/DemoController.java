@@ -97,20 +97,30 @@ public class DemoController {
         return "image";
     }
 
+    @RequestMapping("/delete")
+    public String delete(Model model,@RequestParam("buttonID") long buttonId){
+        repo.deleteById(buttonId);
+        return showAll(model);
+    }
+
     @RequestMapping("/show")
     public String showAll(Model model) {
         List<Image> image = repo.findAll();
 
         String[] saveList = new String[image.size()];
+        long [] idLists = new long[image.size()];
+
         int index = 0;
         for (Image i : image) {
             byte[] temp = i.getImage();
             String type = i.getType();
 
             String base64 = "data:"+type+";base64," + java.util.Base64.getEncoder().encodeToString(temp);
+            idLists[index] = i.getID();
             saveList[index++] = base64;
         }
         model.addAttribute("data", arrayToJSarray(saveList));
+        model.addAttribute("id",idList(idLists));
         return "show";
     }
 
@@ -124,6 +134,18 @@ public class DemoController {
         for (int i = 0; i < saveList.length; i++) {
             sb.append("\"").append(saveList[i]).append("\"");
             if (i < saveList.length - 1) {
+                sb.append(",");
+            }
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
+    private String idList(long [] idList){
+        StringBuilder sb = new StringBuilder("[");
+        for(int i=0;i<idList.length;i++){
+            sb.append("\"").append(idList[i]).append("\"");
+            if(i<idList.length-1){
                 sb.append(",");
             }
         }
