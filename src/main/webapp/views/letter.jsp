@@ -62,19 +62,19 @@ body {
 <h1 class="glow">Love Letter</h1>
 
 <div class="container">
-        Well! Well! Well! Damn isnt is the 3rd birthday already?! And looks like its still the first one!
+        Well! Well! Well! Damn isnt it the 3rd birthday already?! And looks like its still the first one!
         Are we even growing? If this keeps on, trust me we would be nothing short of immortal!
     <br><br>
-        Look at you now! Childish as ever! Thats sometime I wan you to carry on for the rest of your life.
+        Look at you now! Childish as ever! Thats something I want you to carry on for the rest of your life.
         You are a magnificent piece allotted to me and I am glad to have you along side. Down the line
         I have always dreamt of having a person walking with me and I am thankful to God for making sure
         to have me bumped with you. I thank God literally every day for keeping you all fine and even in
         the worst of times, allowing you to come to me safe and sound.
     <br><br>
-        My life couldnt get any worse or better as it is already been best! I want you to keep yourself
+        My life couldnt get any worse or better as it already has been best! I want you to keep yourself
         healthy until the day we finally live together!
     <br><br>
-        My token of love is the way of appreciating you for allowing me to fulfil all my dreams with you,
+        My token of love is the way of appreciating you for allowing me to fulfill all my dreams with you,
         if by any chance should you recall us, please never forget the day you first held my fingers!
     <br><br>
         Happy Birthday my sweetest part of life! I love you moon and back!
@@ -88,8 +88,8 @@ body {
 </div>
 <br><br>
 <div class="button">
-    <form action="/anniversary" method="POST" class="form" id="login">
-        <center><button type="submit" class="form-button">Happy Anniversary!</button></center>
+    <form action="/bday" method="POST" class="form" id="login">
+        <center><button type="submit" class="form-button">Happy Birthday!</button></center>
     </form>
 </div>
 
