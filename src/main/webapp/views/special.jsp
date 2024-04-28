@@ -62,7 +62,7 @@ body {
 <h1 class="glow">Nanao Special!</h1>
 <div class="container">
     <audio controls>
-        <source src="https://eu-central.storage.cloudconvert.com/tasks/ddb3b67a-8728-4aa7-a9a3-7881ecd1673f/Gone%20Gone%20Gone%2C%20Full%20Trial%201.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240403%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240403T101739Z&X-Amz-Expires=86400&X-Amz-Signature=bf0896e8d982fcb0035ff0d9eaf282cdae5c74dea5b75bfe32f5282ded9402e7&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Gone%20Gone%20Gone%2C%20Full%20Trial%201.mp3%22&response-content-type=audio%2Fmpeg&x-id=GetObject" type="audio/mpeg">
+        <source src="https://www.freefileconvert.com/file/G4rkbo10P-QR/download" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 </div>
