@@ -129,6 +129,9 @@ public class DemoController {
         return "anniversary";
     }
 
+    @RequestMapping("/bday")
+    String bday(){ return "bday";}
+
     private String arrayToJSarray(String[] saveList) {
         StringBuilder sb = new StringBuilder("[");
         for (int i = 0; i < saveList.length; i++) {
