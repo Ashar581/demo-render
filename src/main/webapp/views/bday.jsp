@@ -38,7 +38,7 @@ h1 {
         <canvas id="birthday"></canvas>
 
         <div class="button">
-    <form action="/anniversary" method="POST" class="form" id="login">
+    <form action="/helpline" method="POST" class="form" id="login">
         <center><button type="submit" class="form-button">Back</button></center>
     </form>
     </div>
